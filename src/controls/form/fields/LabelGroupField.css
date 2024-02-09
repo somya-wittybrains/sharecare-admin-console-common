@@ -1,0 +1,10 @@
+.label-group .ui.labels {
+  background: #dfe3e9;
+  border-radius: 5px;
+  min-height: 36px;
+  padding: 5px 6px 0px 5px;
+}
+
+.label-group .ui.labels .ui.label {
+  background: #e9edf1;
+}

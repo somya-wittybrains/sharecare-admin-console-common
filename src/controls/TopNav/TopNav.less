@@ -1,0 +1,149 @@
+@type: 'module';
+@element: 'dropdown';
+
+@import (reference) '../../theme.config';
+
+@topnav-height: 40px;
+@large: ~"(min-width: 1300px)";
+
+.top-nav {
+  .ui.menu {
+    justify-content: space-between;
+    height: @topnav-height;
+    .ui.dropdown {
+      flex: 1;
+      height: 100%;
+    }
+    .header.item {
+      max-width: 100%;
+    }
+  }
+
+  .menu:first-child,
+  .menu:last-child {
+    flex: 0 1 auto;
+  }
+
+  .menu.top-nav-sponsor {
+    flex: 1 1 auto;
+    justify-content: center;
+    max-width: 400px;
+    margin: 0em auto;
+    .menu {
+      .selector-text.item {
+        background: #f1f4f8 !important;
+      }
+    }
+
+    .ui.dropdown .menu > .active.item {
+      background: lighten(@secondaryColor, 50%) !important;
+      color: @secondaryColor !important;
+      &.multi-sponsor-text {
+        color: #da2f76 !important;
+      }
+    }
+  }
+
+  .ui.menu > .menu {
+    .multi-sponsor-text {
+      display: flex !important;
+      align-items: center;
+    }
+    & > .dropdown,
+    & > .item {
+      border-left: 1px solid rgba(34, 36, 38, 0.1);
+      border-right: 1px solid rgba(34, 36, 38, 0.1);
+    }
+  }
+
+  .ui.dropdown .menu > .item {
+    border-top: 1px solid rgba(34, 36, 38, 0.1);
+  }
+
+  .ui.dropdown .text {
+    display: inline-flex;
+    flex: 1 0 auto;
+    white-space: nowrap;
+
+    span {
+      display: inline-block;
+      text-overflow: ellipsis;
+      overflow: hidden;
+
+      &:last-child {
+        max-width: 286px;
+      }
+    }
+  }
+  .sponsors-dropdown {
+    border: 0 !important;
+    .dropdown.icon {
+      margin: 4px 0 0 auto !important;
+    }
+    &.ui.loading {
+      .dropdown.icon {
+        margin-top: -7px !important;
+      }
+    }
+  }
+}
+.ui.menu .ui.dropdown {
+  .menu {
+    &.main-dropdown {
+      a {
+        &.item {
+          padding-left: 35px !important;
+        }
+      }
+      div {
+        &.item {
+          font-size: 11px !important;
+          padding-top: 30px !important;
+          text-transform: uppercase !important;
+          font-weight: 700 !important;
+          letter-spacing: 0.7px;
+        }
+      }
+    }
+  }
+}
+
+.ui.bottom.popup.tools-menu {
+  margin-top: 0px;
+  padding: 0px;
+  border-radius: 0px;
+  &:before {
+    display: none;
+  }
+}
+
+.ui.popup.tasks-menu {
+  margin-top: 0px;
+  width: 897px;
+  height: 480px;
+  max-height: 850px;
+  max-width: 950px;
+  overflow-y: auto;
+  position: absolute !important;
+  inset: 10px -20vw auto auto !important;
+}
+
+@media @large {
+  .ui.popup.tasks-menu {
+    inset: 10px -8vw auto auto !important;
+  }
+}
+
+.ui.bottom.popup.advocate-account-menu {
+  margin-top: 0px;
+}
+
+.ui.popup.help-menu-popup {
+  top: 40px !important;
+  right: 25px;
+}
+.ui.popup.help-menu-popup:before {
+  transform: rotate(225deg);
+  top: -5px;
+  right: 83px;
+}

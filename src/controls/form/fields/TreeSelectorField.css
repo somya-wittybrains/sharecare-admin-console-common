@@ -1,0 +1,11 @@
+.tree-selector .tree-container {
+  padding: 14px;
+}
+
+.tree-selector .tree-branch-toggle {
+  padding-top: 4px;
+}
+
+.tree-selector tr td {
+  border-top: 0px !important;
+}

@@ -1,0 +1,1 @@
+depcruise --include-only 'ui/src|api/src' --exclude '^node_modules' --output-type dot "$1" | dot -T svg > "./report/depcruiser-${1//\//-}.svg"

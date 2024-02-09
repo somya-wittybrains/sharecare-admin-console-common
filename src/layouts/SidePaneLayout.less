@@ -1,0 +1,87 @@
+@import (reference) '../controls/TopNav/TopNav';
+
+@sidepane-width: 270px;
+@sidepane-collapsed-width: 113px; // zpl.io/adwe5pl
+
+@sidepane-dialer-width: 265px;
+@sidepane-dialer-collapsed-width: 108px;
+
+.layout-sidepane--left {
+  overflow: hidden;
+
+  .layout-sidepane-pane {
+    z-index: 2;
+    position: fixed;
+    height: calc(100vh - @topnav-height);
+    left: 0;
+    width: @sidepane-width;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.15);
+    background-color: #ffffff;
+    overflow: hidden;
+
+    .sidepane-scrollable-area {
+      overflow-y: scroll;
+      overflow-x: hidden;
+      height: 100%;
+      scrollbar-width: thin;
+
+      &::-webkit-scrollbar {
+        height: 0.375rem;
+        width: 0.375rem;
+      }
+    }
+  }
+
+  .layout-sidepane-content {
+    margin-left: @sidepane-width;
+    min-height: calc(100vh - @topnav-height);
+    background-color: #fbfbfb;
+  }
+
+  .sidepane-button-collapse {
+    position: fixed;
+    top: @topnav-height + 24px;
+    left: @sidepane-width;
+    transform: translateX(-50%);
+    color: rgb(128, 144, 163);
+    cursor: pointer;
+    z-index: 100;
+    &:hover {
+      color: rgb(0, 0, 255);
+    }
+  }
+
+  .layout-sidepane-dialer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background-color: #f7f7f7;
+    border: 1px solid #dedede;
+    padding: 5px;
+    z-index: 2;
+    width: @sidepane-dialer-width;
+  }
+}
+
+.layout-sidepane--left.collapsed {
+  > .layout-sidepane-pane {
+    width: @sidepane-collapsed-width;
+  }
+
+  > .layout-sidepane-content {
+    margin-left: @sidepane-collapsed-width;
+  }
+
+  .sidepane-button-collapse {
+    left: @sidepane-collapsed-width;
+  }
+
+  > .layout-sidepane-dialer {
+    width: @sidepane-dialer-collapsed-width;
+  }
+}

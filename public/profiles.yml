@@ -1,0 +1,173 @@
+health-advocate:
+    display-name: Health Advocate
+    display-description: 'Health (aka "Family") Advocates are the primary contact for member services, especially for their assigned members. They assist and support members with administrative, benefits navigation / coordination, claims inquiries or other topics that do not require specific medical expertise or clinical certifications. Health (aka "Family") Advocates specialize in providing support for Non-Clinical topics, including: Benefit Explanation, Claims Inquiries, Care & Cost Services, Provider Networks, Appeals & Grievances, Enrollment Questions, Pharmacy / Rx Orders, Member Support'
+    display-color: '#32B641'
+    roles:
+        - CONSOLE_ADVOCACY_USERACCESS
+        - CONSOLE_DIGITAL_MESSAGING_COMPOSE
+        - CONSOLE_DIGITAL_MESSAGING_ADVOCACYTOOLS
+        - CONSOLE_CASETASKMANAGEMENT_EDITOR
+        - CONSOLE_MEMBER_ACCT_MANAGE
+        - CONSOLE_MEMBER_CHALLENGES_VIEW
+        - CONSOLE_MEMBER_DEMOGRAPHICS_VIEW_SSN
+        - CONSOLE_MEMBER_HEALTHPROFILE_MANAGER
+        - CONSOLE_MEMBER_PROGRAMS_VIEW
+        - CONSOLE_MEMBER_REALAGE_RESULTS
+        - CONSOLE_MEMBER_REWARDS_ACTIVITY_WAIVER
+        - CONSOLE_MEMBER_BENEFITS_VIEW
+        - CONSOLE_MEMBER_SPONSORSHIPS_CARE_CONSOLE
+        - CONSOLE_MEMBER_HEALTHALERTS_MANAGER
+        - CONSOLE_MEMBER_SMS_EMAIL_SEND_ENABLE
+        - CONSOLE_COACHING_PROGRAMS_VIEW
+        - CONSOLE_COACHING_ENROLLMENTS_STANDARD
+        - CONSOLE_MEMBER_CAREPLANS_VIEW
+        - CONSOLE_MEMBER_DOCUMENTS_DELETE
+        - CONSOLE_MEMBER_DOCUMENTS_VIEWER
+        - CONSOLE_MEMBER_DOCUMENTS_EDIT
+        - CONSOLE_MEMBER_DOCUMENTS_DOWNLOAD
+
+nurse-advocate:
+    display-name: Nurse Advocate
+    display-description: 'Nurse Advocates provide members with on-going clinical support, respond to healthcare inquiries, review care gaps, recommend healthcare services / procedures, and coordinate with clinical specialists/providers to best support members personalized care. Nurse Advocates directly collaborate with other clinical roles, including: Clinical Specialists, Ancillary Specialists, Health Coaches, Providers (Care Team)'
+    display-color: '#643CC6'
+    roles:
+        - CONSOLE_ADVOCACY_USERACCESS
+        - CONSOLE_DIGITAL_MESSAGING_COMPOSE
+        - CONSOLE_DIGITAL_MESSAGING_ADVOCACYTOOLS
+        - CONSOLE_CASETASKMANAGEMENT_EDITOR
+        - CONSOLE_MEMBER_ACCT_MANAGE
+        - CONSOLE_MEMBER_CHALLENGES_VIEW
+        - CONSOLE_MEMBER_DEMOGRAPHICS_VIEW_SSN
+        - CONSOLE_MEMBER_HEALTHPROFILE_MANAGER
+        - CONSOLE_MEMBER_PROGRAMS_VIEW
+        - CONSOLE_MEMBER_REALAGE_RESULTS
+        - CONSOLE_MEMBER_REWARDS_ACTIVITY_WAIVER
+        - CONSOLE_MEMBER_BENEFITS_VIEW
+        - CONSOLE_MEMBER_SPONSORSHIPS_CARE_CONSOLE
+        - CONSOLE_MEMBER_HEALTHALERTS_MANAGER
+        - CONSOLE_MEMBER_SMS_EMAIL_SEND_ENABLE
+        - CONSOLE_COACHING_PROGRAMS_VIEW
+        - CONSOLE_COACHING_ENROLLMENTS_READ
+        - CONSOLE_MEMBER_CAREPLANS_EDIT
+        - CONSOLE_MEMBER_RISKPROFILE_VIEW
+        - CONSOLE_MEMBER_DOCUMENTS_DELETE
+        - CONSOLE_MEMBER_DOCUMENTS_VIEWER
+        - CONSOLE_MEMBER_DOCUMENTS_EDIT
+        - CONSOLE_MEMBER_DOCUMENTS_DOWNLOAD
+
+clinical-specialist:
+    display-name: Clinical Specialist
+    display-description: 'Clinical Specialists develop and manage the specialized, long-term health care plan for members. Health (Family) Advocates and/or Nurse Advocates may route a specialized medical or disease management topic to Clinical Specialists, who then subsequently work directly with members to provide personalized care guidance and on-going clinical services / support. Clinical Specialists manage care in some of the following clinical specialties: NICU Care Managers, Transplant Case Managers, Behavioral Health Specialists, Physicians / Physician Assistants'
+    display-color: '#CE0C6E'
+    roles:
+        - CONSOLE_ADVOCACY_USERACCESS
+        - CONSOLE_DIGITAL_MESSAGING_COMPOSE
+        - CONSOLE_DIGITAL_MESSAGING_ADVOCACYTOOLS
+        - CONSOLE_CASETASKMANAGEMENT_EDITOR
+        - CONSOLE_MEMBER_ACCT_MANAGE
+        - CONSOLE_MEMBER_CHALLENGES_VIEW
+        - CONSOLE_MEMBER_DEMOGRAPHICS_VIEW_SSN
+        - CONSOLE_MEMBER_HEALTHPROFILE_MANAGER
+        - CONSOLE_MEMBER_PROGRAMS_VIEW
+        - CONSOLE_MEMBER_REALAGE_RESULTS
+        - CONSOLE_MEMBER_REWARDS_ACTIVITY_WAIVER
+        - CONSOLE_MEMBER_BENEFITS_VIEW
+        - CONSOLE_MEMBER_SPONSORSHIPS_CARE_CONSOLE
+        - CONSOLE_MEMBER_HEALTHALERTS_MANAGER
+        - CONSOLE_MEMBER_SMS_EMAIL_SEND_ENABLE
+        - CONSOLE_COACHING_PROGRAMS_VIEW
+        - CONSOLE_COACHING_ENROLLMENTS_READ
+        - CONSOLE_MEMBER_CAREPLANS_MANAGE
+        - CONSOLE_MEMBER_RISKPROFILE_VIEW
+        - CONSOLE_MEMBER_DOCUMENTS_DELETE
+        - CONSOLE_MEMBER_DOCUMENTS_VIEWER
+        - CONSOLE_MEMBER_DOCUMENTS_EDIT
+        - CONSOLE_MEMBER_DOCUMENTS_DOWNLOAD
+
+supervisor-advocate:
+    display-name: Supervisor
+    display-description: 'Supervisors oversee advocacy business operations and its related front & back office functions. This includes the implementation and support of Care Console along with other critical enterprise solutions to best facilitate advocacy business operations & performance. Responsibilities often include managing: Users / User Groups, Roles & Permissions, Specialties / Clinical Qualifications, Professional Licenses (ex: RN), Member / Advocate Assignment'
+    display-color: '#7F8FA4'
+    roles:
+        - CONSOLE_ADVOCACY_MANAGER
+        - CONSOLE_DIGITAL_MESSAGING_COMPOSE
+        - CONSOLE_DIGITAL_MESSAGING_ADVOCACYTOOLS
+        - CONSOLE_DIGITAL_MESSAGING_QUEUEMANAGER
+        - CONSOLE_CASETASKMANAGEMENT_EDITOR
+        - CONSOLE_MEMBER_ACCT_MANAGE
+        - CONSOLE_MEMBER_CHALLENGES_VIEW
+        - CONSOLE_MEMBER_DEMOGRAPHICS_VIEW_SSN
+        - CONSOLE_MEMBER_HEALTHPROFILE_MANAGER
+        - CONSOLE_MEMBER_PROGRAMS_VIEW
+        - CONSOLE_MEMBER_REALAGE_RESULTS
+        - CONSOLE_MEMBER_REWARDS_ACTIVITY_WAIVER
+        - CONSOLE_MEMBER_BENEFITS_VIEW
+        - CONSOLE_MEMBER_SPONSORSHIPS_CARE_CONSOLE
+        - CONSOLE_MEMBER_HEALTHALERTS_MANAGER
+        - CONSOLE_MEMBER_SMS_EMAIL_SEND_ENABLE
+        - CONSOLE_COACHING_PROGRAMS_VIEW
+        - CONSOLE_COACHING_ENROLLMENTS_STANDARD
+        - CONSOLE_MEMBER_CAREPLANS_MANAGE
+        - CONSOLE_MEMBER_DOCUMENTS_DELETE
+        - CONSOLE_MEMBER_DOCUMENTS_VIEWER
+        - CONSOLE_MEMBER_DOCUMENTS_EDIT
+        - CONSOLE_MEMBER_DOCUMENTS_DOWNLOAD
+
+directormd-advocate:
+    display-name: Medical Director
+    display-description: 'Medical Directors manage teams of Clinical Advocates (Nurse Advocates, Clinical Specialists, and Ancillary Specialists) and are responsible for their clinical alignment, operational, financial, and the overall performance of the Care Management services they provide. personalized care. Medical Directors would use the Care Console to manage their respective teams and facilitate workforce operations, including: Clinical Programs and Services, Nurse Advocate, Care Referral, and Care Plan workflow processes / coordination.'
+    display-color: '#1B1C1D'
+    roles:
+        - CONSOLE_ADVOCACY_MANAGER
+        - CONSOLE_DIGITAL_MESSAGING_COMPOSE
+        - CONSOLE_DIGITAL_MESSAGING_ADVOCACYTOOLS
+        - CONSOLE_DIGITAL_MESSAGING_CONFIGURE
+        - CONSOLE_CASETASKMANAGEMENT_EDITOR
+        - CONSOLE_MEMBER_ACCT_MANAGE
+        - CONSOLE_MEMBER_CHALLENGES_VIEW
+        - CONSOLE_MEMBER_DEMOGRAPHICS_VIEW_SSN
+        - CONSOLE_MEMBER_HEALTHPROFILE_MANAGER
+        - CONSOLE_MEMBER_PROGRAMS_VIEW
+        - CONSOLE_MEMBER_REALAGE_RESULTS
+        - CONSOLE_MEMBER_REWARDS_ACTIVITY_WAIVER
+        - CONSOLE_MEMBER_BENEFITS_VIEW
+        - CONSOLE_MEMBER_SPONSORSHIPS_CARE_CONSOLE
+        - CONSOLE_MEMBER_HEALTHALERTS_MANAGER
+        - CONSOLE_MEMBER_SMS_EMAIL_SEND_ENABLE
+        - CONSOLE_COACHING_PROGRAMS_VIEW
+        - CONSOLE_COACHING_ENROLLMENTS_READ
+        - CONSOLE_MEMBER_CAREPLANS_MANAGE
+        - CONSOLE_QLIK_ANALYZER
+        - CONSOLE_MEMBER_RISKPROFILE_VIEW
+        - CONSOLE_MEMBER_DOCUMENTS_DELETE
+        - CONSOLE_MEMBER_DOCUMENTS_VIEWER
+        - CONSOLE_MEMBER_DOCUMENTS_EDIT
+        - CONSOLE_MEMBER_DOCUMENTS_DOWNLOAD
+
+research-analyst:
+    display-name: Research Analyst
+    display-description: 'Research Analysts provide administrative support to Health (Family) Advocates and Clinical Advocates (e.g. calling to obtain medical records etc). They collaborate with their peers and medical professionals about member issues but rarely with the member themselves.'
+    display-color: '#FF6600'
+    roles:
+        - CONSOLE_ADVOCACY_USERACCESS
+        - CONSOLE_DIGITAL_MESSAGING_COMPOSE
+        - CONSOLE_DIGITAL_MESSAGING_ADVOCACYTOOLS
+        - CONSOLE_CASETASKMANAGEMENT_EDITOR
+        - CONSOLE_MEMBER_ACCT_MANAGE
+        - CONSOLE_MEMBER_CHALLENGES_VIEW
+        - CONSOLE_MEMBER_DEMOGRAPHICS_VIEW_SSN
+        - CONSOLE_MEMBER_HEALTHPROFILE_MANAGER
+        - CONSOLE_MEMBER_PROGRAMS_VIEW
+        - CONSOLE_MEMBER_REALAGE_RESULTS
+        - CONSOLE_MEMBER_REWARDS_ACTIVITY_WAIVER
+        - CONSOLE_MEMBER_BENEFITS_VIEW
+        - CONSOLE_MEMBER_SPONSORSHIPS_CARE_CONSOLE
+        - CONSOLE_MEMBER_HEALTHALERTS_MANAGER
+        - CONSOLE_MEMBER_SMS_EMAIL_SEND_ENABLE
+        - CONSOLE_COACHING_PROGRAMS_VIEW
+        - CONSOLE_COACHING_ENROLLMENTS_READ
+        - CONSOLE_MEMBER_CAREPLANS_VIEW
+        - CONSOLE_MEMBER_DOCUMENTS_DELETE
+        - CONSOLE_MEMBER_DOCUMENTS_VIEWER
+        - CONSOLE_MEMBER_DOCUMENTS_EDIT
+        - CONSOLE_MEMBER_DOCUMENTS_DOWNLOAD

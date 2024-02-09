@@ -1,0 +1,217 @@
+.rich-editor-wrapper {
+  width: 100% !important;
+  display: block !important;
+  margin-bottom: 25px !important;
+  height: 100% !important;
+  border-bottom: 1px solid rgba(34, 36, 38, 0.15);
+  color: rgba(0, 0, 0, 0.87);
+}
+.rich-editor-1-row {
+  min-height: 36px !important;
+  max-height: 36px !important;
+  border: 1px solid #f1f1f1 !important;
+  padding: 5px !important;
+  border-radius: 2px !important;
+}
+
+.rich-editor-2-row {
+  min-height: 72px !important;
+  max-height: 72px !important;
+  border: 1px solid #f1f1f1 !important;
+  padding: 5px !important;
+  border-radius: 2px !important;
+}
+
+.rich-editor-3-row {
+  min-height: 108px !important;
+  max-height: 108px !important;
+  border: 1px solid #f1f1f1 !important;
+  padding: 5px !important;
+  border-radius: 2px !important;
+}
+
+.rich-editor-4-row {
+  min-height: 144px !important;
+  max-height: 144px !important;
+  border: 1px solid #f1f1f1 !important;
+  padding: 5px !important;
+  border-radius: 2px !important;
+}
+
+.rich-editor-5-row {
+  min-height: 180px !important;
+  max-height: 180px !important;
+  border: 1px solid #f1f1f1 !important;
+  padding: 5px !important;
+  border-radius: 2px !important;
+}
+
+.rich-editor-6-row {
+  min-height: 216px !important;
+  max-height: 216px !important;
+  border: 1px solid #f1f1f1 !important;
+  padding: 5px !important;
+  border-radius: 2px !important;
+}
+
+.rich-editor-7-row {
+  min-height: 252px !important;
+  max-height: 252px !important;
+  border: 1px solid #f1f1f1 !important;
+  padding: 5px !important;
+  border-radius: 2px !important;
+}
+
+.rich-editor-8-row {
+  min-height: 288px !important;
+  max-height: 288px !important;
+  border: 1px solid #f1f1f1 !important;
+  padding: 5px !important;
+  border-radius: 2px !important;
+}
+
+.rich-editor-9-row {
+  min-height: 324px !important;
+  max-height: 324px !important;
+  border: 1px solid #f1f1f1 !important;
+  padding: 5px !important;
+  border-radius: 2px !important;
+}
+
+.rich-editor-10-row {
+  min-height: 360px !important;
+  max-height: 360px !important;
+  border: 1px solid #f1f1f1 !important;
+  padding: 5px !important;
+  border-radius: 2px !important;
+}
+
+.rich-editor-11-row {
+  min-height: 396px !important;
+  max-height: 396px !important;
+  border: 1px solid #f1f1f1 !important;
+  padding: 5px !important;
+  border-radius: 2px !important;
+}
+
+.rich-editor-12-row {
+  min-height: 432px !important;
+  max-height: 432px !important;
+  border: 1px solid #f1f1f1 !important;
+  padding: 5px !important;
+  border-radius: 2px !important;
+}
+
+.rich-editor-13-row {
+  min-height: 468px !important;
+  max-height: 468px !important;
+  border: 1px solid #f1f1f1 !important;
+  padding: 5px !important;
+  border-radius: 2px !important;
+}
+
+.rich-editor-14-row {
+  min-height: 504px !important;
+  max-height: 504px !important;
+  border: 1px solid #f1f1f1 !important;
+  padding: 5px !important;
+  border-radius: 2px !important;
+}
+
+.rich-editor-15-row {
+  min-height: 540px !important;
+  max-height: 540px !important;
+  border: 1px solid #f1f1f1 !important;
+  padding: 5px !important;
+  border-radius: 2px !important;
+}
+
+.rich-editor-16-row {
+  min-height: 576px !important;
+  max-height: 576px !important;
+  border: 1px solid #f1f1f1 !important;
+  padding: 5px !important;
+  border-radius: 2px !important;
+}
+
+.rich-editor-17-row {
+  min-height: 612px !important;
+  max-height: 612px !important;
+  border: 1px solid #f1f1f1 !important;
+  padding: 5px !important;
+  border-radius: 2px !important;
+}
+
+.rich-editor-18-row {
+  min-height: 648px !important;
+  max-height: 648px !important;
+  border: 1px solid #f1f1f1 !important;
+  padding: 5px !important;
+  border-radius: 2px !important;
+}
+
+.rich-editor-19-row {
+  min-height: 684px !important;
+  max-height: 684px !important;
+  border: 1px solid #f1f1f1 !important;
+  padding: 5px !important;
+  border-radius: 2px !important;
+}
+
+.rich-editor-20-row {
+  min-height: 720px !important;
+  max-height: 720px !important;
+  border: 1px solid #f1f1f1 !important;
+  padding: 5px !important;
+  border-radius: 2px !important;
+}
+
+.rich-editor-21-row {
+  min-height: 756px !important;
+  max-height: 756px !important;
+  border: 1px solid #f1f1f1 !important;
+  padding: 5px !important;
+  border-radius: 2px !important;
+}
+
+.rich-editor-22-row {
+  min-height: 792px !important;
+  max-height: 792px !important;
+  border: 1px solid #f1f1f1 !important;
+  padding: 5px !important;
+  border-radius: 2px !important;
+}
+
+.rich-editor-23-row {
+  min-height: 828px !important;
+  max-height: 828px !important;
+  border: 1px solid #f1f1f1 !important;
+  padding: 5px !important;
+  border-radius: 2px !important;
+}
+
+.rich-editor-24-row {
+  min-height: 864px !important;
+  max-height: 864px !important;
+  border: 1px solid #f1f1f1 !important;
+  padding: 5px !important;
+  border-radius: 2px !important;
+}
+
+.rich-editor-25-row {
+  min-height: 900px !important;
+  max-height: 900px !important;
+  border: 1px solid #f1f1f1 !important;
+  padding: 5px !important;
+  border-radius: 2px !important;
+}
+
+.readyonly {
+  background-color: #e9edf1 !important;
+}
+.toolbar-disable
+{
+    background: #f0f0f0;
+    opacity: 0.6;
+    overflow: auto;
+}

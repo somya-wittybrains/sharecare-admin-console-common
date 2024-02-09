@@ -1,0 +1,83 @@
+{
+  "extends": ["plugin:react/recommended", "standard"],
+  "parser": "@babel/eslint-parser",
+  "plugins": [
+    "react",
+    "react-hooks"
+  ],
+  "settings": {
+    "react": {
+      "createClass": "createReactClass", // Regex for Component Factory to use,
+                                         // default to "createReactClass"
+      "pragma": "React",  // Pragma to use, default to "React"
+      "fragment": "Fragment",  // Fragment to use (may be a property of <pragma>), default to "Fragment"
+      "version": "detect", // React version. "detect" automatically picks the version you have installed.
+                           // You can also use `16.0`, `16.3`, etc, if you want to override the detected value.
+                           // It will default to "latest" and warn if missing, and to "detect" in the future
+      "flowVersion": "0.53" // Flow version
+    }
+  },
+  "rules": {
+    "n/exports-style": ["error", "module.exports"],
+    "object-shorthand": 0,
+    "no-var": 0,
+    "func-call-spacing": 0,
+    "quotes": 0,
+    "comma-dangle": 0,
+    "array-bracket-spacing": 0,
+    "no-unneeded-ternary": 0,
+    "react-hooks/exhaustive-deps": 0,
+    "block-spacing": 0,
+    "no-extra-boolean-cast": 0,
+    "semi-spacing": 0,
+    "brace-style": 0,
+    "object-property-newline":0,
+    "no-irregular-whitespace": 0,
+    "object-curly-newline":0,
+    "operator-linebreak": 0,
+    "key-spacing": 0,
+    "space-before-blocks": 0,
+    "arrow-spacing": 0,
+    "no-multi-spaces": 0,
+    "padded-blocks": 0,
+    "no-trailing-spaces": 0,
+    "no-multiple-empty-lines": 0,
+    "keyword-spacing": 0,
+    "no-uneeded-ternary": 0,
+    "comma-spacing": 0,
+    "space-infix-ops": 0,
+    "camelcase": 0,
+    "object-curly-spacing": 0,
+    "eol-last": 0,
+    "yoda": 0,
+    "curly" : 0,
+    "strict": 0,
+    "semi": 0,
+    "react/prop-types": 0,
+    "spaced-comment": 0,
+    "one-var": 0,
+    "no-prototype-builtins": 0,
+    "prefer-const": 0,
+    "multiline-ternary": 0,
+    "indent": 0,
+    "space-before-function-paren": 0,
+    "prefer-regex-literals": 0,
+    "dot-notation": 0,
+    "space-in-parens": 0,
+    "react/jsx-key": 0,
+    "prefer-promise-reject-errors": 0,
+    "no-tabs": 0,
+    "react/no-unescaped-entities": 0,
+    "lines-between-class-members": 0,
+    "no-async-promise-executor": 0,
+    "quote-props": 0,
+    "n/handle-callback-err": 0,
+    "no-mixed-spaces-and-tabs": 0,
+    "no-new": 0
+  },
+  "env": {
+    "jest": true
+  }
+
+}
+

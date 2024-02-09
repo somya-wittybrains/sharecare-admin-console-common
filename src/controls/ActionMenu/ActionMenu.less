@@ -1,0 +1,119 @@
+@type: 'collection';
+@element: 'menu';
+
+@import (reference) '../../theme.config';
+
+.ac.action-menu.menu {
+  &.basic {
+    border: 1px transparent solid;
+    box-shadow: none;
+
+    & > .item {
+      cursor: unset;
+    }
+
+    .item:before {
+      background: transparent;
+    }
+  }
+
+  & > .item {
+    padding-top: 1.25em;
+    padding-bottom: 1.25em;
+    cursor: pointer;
+    &[disabled] {
+      cursor: default;
+    }
+
+    &.primary {
+      color: @primaryColor;
+    }
+    &.secondary {
+      color: @secondaryColor;
+    }
+    &.tertiary {
+      color: @tertiaryColor;
+    }
+    &.red {
+      color: @red;
+    }
+    &.menuselected {
+      background: #fff;
+      & > div {
+        color: rgba(0, 0, 0, 0.9);
+        font-size: 15px;
+      }
+      .caret.right {
+        margin-right: 0;
+      }
+    }
+    &.menunotselected {
+      background: #f7f7f7;
+      color: rgba(0, 0, 0, 0.7);
+    }
+    & > div {
+      display: flex;
+
+      & > .icon {
+        margin-right: 1em;
+      }
+      & strong {
+        display: block;
+      }
+      & small {
+        display: block;
+        color: @grey;
+        padding-top: 0.75em;
+      }
+    }
+  }
+}
+
+.ac.action-menu.segment {
+  // All the widths assume that the segment is a placeholder for a *vertical* menu.
+  // If the action menu is ever needed as an horizontal menu, then more work is needed here.
+  width: @mediumWidth;
+
+  &.tiny {
+    width: @tinyWidth;
+  }
+
+  &.small {
+    width: @smallWidth;
+  }
+
+  &.huge {
+    width: @hugeWidth;
+  }
+
+  &.big {
+    width: @bigWidth;
+  }
+
+  &.massive {
+    width: @massiveWidth;
+  }
+}
+
+.collapsed {
+  .ac.action-menu.menu {
+    width: unset;
+
+    & > .item > div {
+      flex-direction: column;
+    }
+
+    & > .item > div > .icon {
+      display: block;
+      margin: 0 auto 5px;
+    }
+
+    & > .item > div strong {
+      text-align: center;
+    }
+  }
+
+  .ac.action-menu.segment {
+    width: unset;
+  }
+}

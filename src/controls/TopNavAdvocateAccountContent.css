@@ -1,0 +1,7 @@
+.advocate-status-enum-wrapper .ui.selection.dropdown {
+  flex: 1;
+}
+
+.advocate-status-enum-wrapper .ui.dropdown > .text {
+  display: flex;
+}

@@ -1,0 +1,127 @@
+#call-active-tabs {
+  display: none;
+}
+
+#sfli-initiate-transfer .sfli-panel-footer .sfli-flexible.sfli-flexbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 52px;
+}
+#sfli-initiate-transfer
+  .sfli-panel-footer
+  .sfli-flexible.sfli-flexbox
+  > .sfli-flexbox-item {
+  flex: 1;
+  margin: 0px 2px;
+}
+
+#sfli-initiate-conference .sfli-panel-footer .sfli-flexible.sfli-flexbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 52px;
+}
+#sfli-initiate-conference
+  .sfli-panel-footer
+  .sfli-flexible.sfli-flexbox
+  > .sfli-flexbox-item {
+  flex: 1;
+  margin: 0px 2px;
+}
+
+#sfli-new-callback .sfli-panel-footer .sfli-flexbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 52px;
+}
+#sfli-new-callback .sfli-panel-footer .sfli-flexbox > .sfli-flexbox-item {
+  flex: 1;
+  margin: 0px 2px;
+}
+
+#dispButtons_conference .sfli-flexible.sfli-flexbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 52px;
+}
+
+#dispButtons_conference .sfli-flexible.sfli-flexbox > .sfli-flexbox-item {
+  flex: 1;
+  margin: 0px 2px;
+}
+
+#home-panel_agentReadyStateComp {
+  display: none;
+}
+
+#home-panel-logout_btn-region {
+  position: absolute;
+  right: 10px;
+}
+
+#homeBtnComp {
+  display: none;
+}
+
+/*
+#sfli-home-agent-stats {
+  display: none;
+}
+*/
+
+#pending-state {
+  display: none;
+}
+
+/*
+#newCallBtnComp {
+  display: none;
+}
+*/
+
+#missed-calls-button {
+  display: none;
+}
+
+/*
+#voicemails-button {
+  display: none;
+}
+*/
+
+/*
+#callbacks-button {
+  display: none;
+}
+*/
+
+#internal-messages-button {
+  display: none;
+}
+
+#side-menu_agentReadyStateComp {
+  display: none;
+}
+
+#sfli-side-missed-calls-btn {
+  display: none;
+}
+
+#sfli-side-messages-btn {
+  display: none;
+}
+
+#side-menu_statsPanelComp {
+  display: none;
+}
+
+#sfli-reminders #homeBtnComp {
+  display: block !important;
+}
+
+.sfli-ready-state-icon {
+  display: none;
+}

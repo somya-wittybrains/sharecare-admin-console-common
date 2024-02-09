@@ -1,0 +1,32 @@
+.notifications {
+  position: fixed;
+  top: 5px;
+  right: 5px;
+  z-index: 1001;
+  width: 320px;
+}
+
+.notification-enter.notification-enter-active {
+  animation: notification-in 500ms;
+}
+
+.notification-leave.notification-leave-active {
+  animation: notification-out 300ms;
+}
+
+@keyframes notification-in {
+  from{
+    right: -320px;
+  }
+  to{
+    right: 5px;
+  }
+}
+@keyframes notification-out {
+  from{
+    right: 5px;
+  }
+  to{
+    right: -320px;
+  }
+}

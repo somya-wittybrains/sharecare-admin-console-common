@@ -1,0 +1,30 @@
+@type : 'element';
+@element : 'list';
+
+@import (reference) '../../theme.config';
+
+.ac.click-link {
+  display: inline-flex;
+  padding: 0;
+  border: none;
+  -webkit-appearance: none;
+  background-color: transparent;
+
+  & > :not(.icon) {
+    text-decoration: underline;
+  }
+
+  &:not([disabled]) {
+    cursor: pointer;
+    color: @linkColor;
+
+    &:hover {
+      text-decoration: @linkHoverUnderline;
+    }
+  }
+
+  & > .icon {
+    margin-right: 0;
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,46 @@
+.uploadedThumbnail {
+  margin: 10px 0 20px;
+  border: 1px solid #f0f0f0;
+  padding: 4px;
+  position: relative;
+  display: table;
+}
+
+.uploadedThumbnail .delete-overlay {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  display: none;
+}
+
+.uploadedThumbnail:hover .delete-overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.2);
+}
+.uploadedThumbnail .delete-overlay .button {
+  padding: 6px;
+  font-size: 10px;
+  background: rgba(245, 95, 95, 0.8);
+  cursor: pointer;
+  color: #fff;
+}
+
+.uploadedThumbnail .delete-overlay .button i {
+  opacity: 1 !important;
+  margin-right: 0 !important;
+  font-size: 10px;
+  float: right;
+  margin-left: 3px !important;
+}
+
+.circular .ui.image{
+  border-radius: 50%;
+  aspect-ratio: 1;
+}

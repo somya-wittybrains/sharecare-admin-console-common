@@ -1,0 +1,42 @@
+.sidebar-header {
+  .header svg {
+    display: block;
+    width: 80;
+
+    &:after {
+      content: '';
+      display: block;
+      height: 0;
+      clear: both;
+      visibility: hidden;
+    }
+  }
+
+  .header.sub {
+    text-align: left;
+  }
+}
+
+.sidebar-content {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.collapsed {
+  .sidebar-header {
+    .header .content {
+      display: none;
+    }
+
+    .header.sub {
+      display: none;
+    }
+  }
+
+  .sidebar-content.ui {
+    // ideally, it should be using some semantic-ui mixin
+    // unfortunately, design team is not willing to build using semantic-ui blocks
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+}
